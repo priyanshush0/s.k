@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .logo{
+            font-size: 30px;
+            font-family: cursive;
+            color: rgb(170, 8, 8);
+            display: flex;
+            height: 40px;
+            width: 100%;
+            background: radial-gradient(rgb(182, 103, 103),rgb(228, 187, 187));
+        }
+        
+            
+        
+        ul li{
+        
+            display: inline;
+            padding-left: 60px;
+            text-align: right;
+            
+            font-size: 20px;
+            
+            
+        }
+
+        .nav{
+            margin-top: -39px;
+            text-transform: capitalize;
+            
+            
+            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            text-align: right;
+        }
+
+        .dropdown{
+            position: absolute;
+            width: 150px;
+            left: 500px;
+            margin-top: 10px;
+            margin-left: -40px;
+                
+        }
+
+        .dropdownlist{
+            font-size: medium;
+            width: 150px;
+            text-align: left;
+            background-color: aquamarine;
+            display: none;
+            margin-left: 60px;
+            height: 50px;
+
+           
+        }
+
+        .dropdown:hover .dropdownlist{
+            display: block;
+        }
+
+            
+        
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="logo">HAvEn
+        <div class="nav">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li class="dropdown"><a href="">service</a>
+                
+                <div class="dropdownlist">
+                    <a href="">emergecy call</a>
+                    <a href=""> booking </a>
+                </div>
+                </li>
+                
+                <li><a href="">contact</a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

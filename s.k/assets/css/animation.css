@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+
+}
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(blue, pink);
+    border-radius: 40px;
+    position: absolute;
+
+    animation-name: sk;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes sk{
+    0%{left: 0;
+        top: 0;
+        
+
+    }
+
+    25%{left: 400px;
+        top: 0;
+        background-image: linear-gradient(yellow,green);
+
+    }
+
+    50%{
+        left: 400px;
+        top: 400px;
+        background-image: linear-gradient(teal, gray);
+
+    }
+
+    75%{left: 0;
+        top: 400px;
+        background-image: linear-gradient(black ,violet)
+
+
+    }
+    100%{
+        left: 0;
+        top: 0;
+        background-image: linear-gradient(darkred , orange);
+
+    }
+
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 300px;
+            background-color: rgb(39, 38, 38);
+            color: aliceblue;
+            font-size: 30px;
+            display: none;
+        }
+
+        @media (min-width:320px) and (max-width:480px) {
+            #one {
+                display: block;
+                background-color: rgb(50, 163, 148);
+                font-size: 20px;
+                color: brown;
+            }
+        }
+
+        @media (min-width:481px) and (max-width:768px) {
+            #two {
+                display: block;
+                background-color: rgb(54, 57, 99);
+                color: black;
+                font-size: larger;
+            }
+        }
+
+        @media (min-width:769px) and (max-width:1024px) {
+            #three {
+                display: block;
+                background-color: rgb(63, 35, 58);
+                font-size: larger;
+                color: red;
+
+            }
+        }
+
+        @media (min-width:1025px) and (max-width:1200px) {
+            #four {
+                display: block;
+                background-color: rgb(65, 99, 45);
+                color: black;
+                font-size: larger;
+
+            }
+        }
+
+        @media (min-width:1201px) and (max-width:1441px) {
+            #five {
+                display: block;
+                background-color: rgb(61, 80, 73);
+                color: black;
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main" id="one"> mobile </div>
+    <div class="main" id="two"> tablet </div>
+    <div class="main" id="three"> lpatop </div>
+    <div class="main" id="four"> desktop </div>
+    <div class="main" id="five"> tv </div>
+
+</body>
+
+</html>
